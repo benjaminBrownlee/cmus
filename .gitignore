@@ -8,7 +8,6 @@ tags
 cscope.out
 !.gitignore
 !.travis.yml
-!.github
 
 # top-level ignores
 /*.spec
@@ -22,3 +21,9 @@ cscope.out
 /cmus.base
 /cmus.def
 /cmus.exp
+
+# build
+doc-pak/
+*.deb
+*.tgz
+description-pak
